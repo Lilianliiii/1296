@@ -1,0 +1,14 @@
+<!--pages/stories/new.wxml-->
+<view class="main">
+  <view class="h2" style="text-align: center;">Add a New Story</view>
+
+  <form bindsubmit="submit">
+    <view class="label">Title:</view>
+    <input type="text" name="title"/>
+
+    <view class="label">Description:</view>
+    <input type="text" name="description"/>
+
+    <button form-type="submit" class="btn-purple" style="margin-top: 100rpx;">Save</button>
+  </form>
+</view>

@@ -1,0 +1,21 @@
+/* pages/stories/index.wxss */
+.card-product {
+  overflow: hidden;
+  height: 240rpx;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-top: 32rpx;
+}
+
+.card-product image {
+  height: 100%;
+  width: 240rpx;
+  object-fit: cover;
+}
+
+.card-product .card-product-infos {
+  padding: 32rpx;
+}

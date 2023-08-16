@@ -1,0 +1,35 @@
+/* pages/landing/landing.wxss */
+.banner {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+text {
+  color: white;
+  text-shadow: 1px 1px 3px rbga(0,0,0,0.2);
+  font-size: 52rpx;
+  font-weight: bold;
+  position: fixed;
+  bottom: 600rpx;
+}
+
+.banner navigator {
+  position: fixed;
+  bottom: 300rpx;
+  display: flex;
+  justify-content: center;
+}
+
+/* .banner button {
+  position: fixed;
+  bottom: 300rpx;
+} */
+

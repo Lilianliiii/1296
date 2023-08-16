@@ -1,0 +1,9 @@
+<!--pages/landing/landing.wxml-->
+<view class="banner">
+  <text>Welcome to F* My Code</text>
+
+  <navigator open-type="switchTab" url="/pages/stories/index">
+    <button class="btn-purple">Enter</button>
+  </navigator>
+  
+</view>

@@ -1,0 +1,26 @@
+{
+  "projectname": "f-my-code",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "New Story",
+          "pathName": "pages/stories/new",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "Stories Index",
+          "pathName": "pages/stories/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

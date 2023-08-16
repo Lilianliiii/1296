@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/landing/landing",
+    "pages/stories/index",
+    "pages/stories/show",
+    "pages/stories/new"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "F* My Code",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#670BFF",
+    "list": [{
+      "pagePath": "pages/stories/index",
+      "text": "Stories"
+    }, {
+      "pagePath": "pages/stories/new",
+      "text": "Add Story"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

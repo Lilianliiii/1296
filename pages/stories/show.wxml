@@ -1,0 +1,5 @@
+<!--pages/stories/show.wxml-->
+<view class="main">
+  <view class="h2">{{story.title}}</view>
+  <view class="p">{{story.description}}</view>
+</view>

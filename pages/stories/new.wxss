@@ -1,0 +1,10 @@
+/* pages/stories/new.wxss */
+.label {
+  margin-bottom: 16rpx;
+}
+input {
+  border: solid 1px gray;
+  border-radius: 20rpx;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+}
