@@ -1,7 +1,8 @@
 {
   "projectname": "f-my-code",
   "setting": {
-    "compileHotReLoad": true
+    "compileHotReLoad": true,
+    "urlCheck": false
   },
   "condition": {
     "miniprogram": {

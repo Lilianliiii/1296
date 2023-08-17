@@ -1,1 +1,5 @@
 /* pages/stories/show.wxss */
+.btn-container {
+  display: flex;
+  margin-top: 50rpx;
+}

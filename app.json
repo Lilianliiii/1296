@@ -3,7 +3,7 @@
     "pages/landing/landing",
     "pages/stories/index",
     "pages/stories/show",
-    "pages/stories/new"
+    "pages/stories/form"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -17,7 +17,7 @@
       "pagePath": "pages/stories/index",
       "text": "Stories"
     }, {
-      "pagePath": "pages/stories/new",
+      "pagePath": "pages/stories/form",
       "text": "Add Story"
     }]
   },

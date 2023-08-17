@@ -3,3 +3,8 @@
   <view class="h2">{{story.title}}</view>
   <view class="p">{{story.description}}</view>
 </view>
+
+<view class="btn-container">
+  <button type="primary" bindtap="editStory">Edit</button>
+  <button type="warn" bindtap="deleteStory">Delete</button>
+</view>

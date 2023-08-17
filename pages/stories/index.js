@@ -19,7 +19,7 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-    console.log("onLoad")
+    // console.log("onLoad")
     // console.log("stories:", app.globalData.stories)
     // const stories = app.globalData.stories
     // this.setData({
@@ -31,7 +31,7 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady() {
-    console.log("onReady")
+    // console.log("onReady")
   },
 
   /**
@@ -39,10 +39,21 @@ Page({
    */
   onShow() {
     console.log("onShow")
-    const stories = app.globalData.stories
-    this.setData({
-      stories: stories
+    const page = this
+    wx.request({
+      url: 'http://localhost:3000/api/v1/stories',
+      method: 'GET',
+      success: (res) => {
+        console.log("res:", res)
+        page.setData({
+          stories: res.data.stories
+        })
+      },
     })
+    // const stories = app.globalData.stories
+    // this.setData({
+    //   stories: stories
+    // })
   },
 
   /**
@@ -88,7 +99,7 @@ Page({
     // const story = this.data.stories[e.currentTarget.dataset.index]
     // console.log("story:", story)
     wx.navigateTo({
-      url: `/pages/stories/show?index=${e.currentTarget.dataset.index}`,
+      url: `/pages/stories/show?id=${e.currentTarget.dataset.id}`,
     })
   }
 })

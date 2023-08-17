@@ -4,10 +4,10 @@
 
   <form bindsubmit="submit">
     <view class="label">Title:</view>
-    <input type="text" name="title"/>
+    <input type="text" name="title" value="{{formTitle}}"/>
 
     <view class="label">Description:</view>
-    <input type="text" name="description"/>
+    <input type="text" name="description" value="{{formDescription}}"/>
 
     <button form-type="submit" class="btn-purple" style="margin-top: 100rpx;">Save</button>
   </form>

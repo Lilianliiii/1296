@@ -5,12 +5,11 @@
   <block wx:if="{{ stories.length <=0 }}">
     <view>Oh no, there are no stories to display</view>
   </block>
+
   <block wx:else="">
-    <view wx:for="{{stories}}" wx:for-item="story" bindtap="goToStory" data-index="{{index}}" class="card-product">
-      <image src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1768&q=80" />
-      <view class="card-product-infos">
-        <view class="h2">{{story.title}}</view>
-      </view>
+    <view wx:for="{{stories}}" wx:for-item="story" bindtap="goToStory" data-id="{{story.id}}" class="card-product">
+      <image src="/images/coding.jpg" mode=""/>
+      <view class="h2">{{story.title}}</view>
     </view>
   </block>
 
